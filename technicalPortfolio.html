@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+  <head>
+    <title>Portfolio Page</title>
+    <link id="mainStyleSheet" rel="stylesheet" type="text/css" href="styles.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  </head>
+
+  <nav>
+      <a href = "index.html">Home</a>
+      <a href = "technicalPortfolio.html">Portfolio</a>
+      <a href = "qualifications.html">Qualifications</a>
+      <a href = "service.html">Service</a>
+      <a href = "aiPage.html">AI Page</a>
+      <div class="container">
+        <button onclick="toggleStyleSheet()" type="button">Toggle Style</button>
+      </div>
+  </nav>
+
+  <body>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <h1>Technical Portfolio</h1>
+        </tr>
+
+        <h2>Python Dungeon Crawler</h2>
+        <div>
+          <ul>
+            <li>Implemented and constructed a board game application using Python to take input and make according game decisions as part of a development team</li>
+            <li>Planned and implemented a 2 dimensional array structure in order to represent a game board accounting for video game elements such as enemies or obstacles</li>
+            <li>Utilized variables and conditional logic in order to account for in game statistics such as health points</li>
+          </ul>
+        </div>
+        <p><a href="https://realpython.com/tutorials/gamedev/">Check out Python game development</a></p>
+
+        <h2>JavaFX Connect4 Game</h2>
+        <tr>
+          <div>
+            <div class = "dual-container">
+              <div class = "text">
+                <ul>
+                    <li>Used JavaFX to create a GUI application to represent a Connect4 Board logically tied to a shadow structure with components across multiple classes</li>
+                    <li>Implemented a log using File IO to keep track of user and computer moves including functions to save and load files with file reader and writer</li>
+                    <li>Implemented boolean logic to account for win logic based on the shadow structure using object rules</li>
+                    <li>Created Random and Thoughtful AI models to play against the user</li>
+                </ul>
+              </div>
+              <div class = "image">
+                <img src="connect4.png" alt="Description of the image">
+              </div>
+            </div>
+          </div>
+          <p><a href="https://docs.oracle.com/javafx/2/get_started/jfxpub-get_started.htm">Learn more about JavaFX</a></p>
+
+          <h2>Raspberry Pi Pico Relay</h2>
+          <div>
+            <ul>
+              <li>Wired hardware to use a relay on a Raspberry Pi Pico attached to a breadboard</li>
+              <li>Programmed a motion center through GPIO pins in order to use relays to turn on a device</li>
+            </ul>
+          </div>
+          <p><a href="https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico">Learn more about Raspberry Pi</a></p>
+          <p><a href="index.html">Go back to the Home Page</a></p>
+        </tr>
+
+      </table>
+    <script src="functions2.js"></script>
+  </body>
+</html>
